@@ -1,0 +1,214 @@
+﻿[2019.08.08-12.45.27:944][  0]Log file open, 08/08/19 15:45:27
+[2019.08.08-12.45.27:944][  0]LogInit:Display: Running engine for game: FlyBird
+[2019.08.08-12.45.27:944][  0]LogPlatformFile: Not using cached read wrapper
+[2019.08.08-12.45.27:944][  0]LogInit:Display: RandInit(-108856803) SRandInit(-108856803).
+[2019.08.08-12.45.27:944][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2019.08.08-12.45.27:944][  0]LogStats: Stats thread started at 4.074973
+[2019.08.08-12.45.27:944][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2019.08.08-12.45.27:944][  0]LogInit: API Version: 2758231
+[2019.08.08-12.45.27:944][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2019.08.08-12.45.27:944][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2019.08.08-12.45.27:944][  0]LogInit: Build Configuration: Development
+[2019.08.08-12.45.27:944][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2019.08.08-12.45.27:944][  0]LogInit: Command line:  
+[2019.08.08-12.45.27:944][  0]LogInit: Base directory: D:/Unreal Engine 4/UE_4.10/Engine/Binaries/Win64/
+[2019.08.08-12.45.27:944][  0]LogInit: Rocket: 1
+[2019.08.08-12.45.28:147][  0]LogInit: Using libcurl 7.41.0
+[2019.08.08-12.45.28:147][  0]LogInit:  - built for x86_64-pc-win32
+[2019.08.08-12.45.28:147][  0]LogInit:  - supports SSL with WinSSL
+[2019.08.08-12.45.28:147][  0]LogInit:  - other features:
+[2019.08.08-12.45.28:147][  0]LogInit:      CURL_VERSION_SSL
+[2019.08.08-12.45.28:147][  0]LogInit:      CURL_VERSION_IPV6
+[2019.08.08-12.45.28:147][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2019.08.08-12.45.28:147][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2019.08.08-12.45.28:147][  0]LogInit:      CURL_VERSION_IDN
+[2019.08.08-12.45.28:149][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2019.08.08-12.45.28:149][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2019.08.08-12.45.28:149][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2019.08.08-12.45.28:149][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2019.08.08-12.45.28:149][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2019.08.08-12.45.28:403][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2019.08.08-12.45.28:550][  0]LogInit: Object subsystem initialized
+[2019.08.08-12.45.28:763][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.08-12.45.28:763][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.08-12.45.28:954][  0]LogInit: Computer: DESKTOP-N5C2FLV
+[2019.08.08-12.45.28:954][  0]LogInit: User: Gor
+[2019.08.08-12.45.28:954][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.08.08-12.45.28:954][  0]LogInit: High frequency timer resolution =2.742192 MHz
+[2019.08.08-12.45.28:954][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.08.08-12.45.28:954][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.08-12.45.28:954][  0]LogMemory: Process Physical Memory: 62.16 MB used, 62.16 MB peak
+[2019.08.08-12.45.28:954][  0]LogMemory: Process Virtual Memory: 59.75 MB used, 59.75 MB peak
+[2019.08.08-12.45.28:954][  0]LogMemory: Physical Memory: 4541.03 MB used, 8076.82 MB total
+[2019.08.08-12.45.28:954][  0]LogMemory: Virtual Memory: 4522.61 MB used, 134217728.00 MB total
+[2019.08.08-12.45.30:111][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2019.08.08-12.45.31:235][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 1050 (Feature Level 11_0)
+[2019.08.08-12.45.31:235][  0]LogD3D11RHI: Adapter has 4021MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 1 output[s]
+[2019.08.08-12.45.31:252][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 630 (Feature Level 11_0)
+[2019.08.08-12.45.31:252][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 0 output[s]
+[2019.08.08-12.45.31:256][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2019.08.08-12.45.31:256][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 0 output[s]
+[2019.08.08-12.45.31:280][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2019.08.08-12.45.31:300][  0]LogD3D11RHI: !Direct3DDevice
+[2019.08.08-12.45.31:311][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.08.08-12.45.31:360][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.08-12.45.31:757][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../Unreal Projects/FlyBird/Intermediate/Shaders/WorkingDirectory/10944/).
+[2019.08.08-12.45.31:758][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gor/AppData/Local/Temp/UnrealShaderWorkingDir/812CBDEE4563A9E227FB1AAF995EA46C/'.
+[2019.08.08-12.45.31:765][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.08.08-12.45.35:337][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.08.08-12.45.35:361][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.08.08-12.45.35:381][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.08.08-12.45.35:423][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.08.08-12.45.35:468][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.08.08-12.45.35:552][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.08.08-12.45.35:603][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.08.08-12.45.35:685][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.08.08-12.45.35:739][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.08.08-12.45.35:803][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.08.08-12.45.35:825][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.08.08-12.45.35:905][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.08.08-12.45.35:905][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.08.08-12.45.35:979][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.08.08-12.45.36:156][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.08.08-12.45.36:192][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.08.08-12.45.36:212][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.08.08-12.45.36:250][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.08.08-12.45.36:250][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.08.08-12.45.37:376][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.08.08-12.45.37:653][  0]LogDerivedDataCache: Loaded boot cache 0.27s 41MB C:/Users/Gor/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2019.08.08-12.45.37:653][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Gor/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2019.08.08-12.45.37:654][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/FlyBird/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.08-12.45.37:654][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.08-12.45.37:654][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/FlyBird/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.08-12.45.37:654][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.08-12.45.37:791][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.08-12.45.37:807][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.08-12.45.44:447][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.08-12.45.44:555][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2019.08.08-12.45.46:020][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2019.08.08-12.45.46:020][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.08.08-12.45.49:061][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.08.08-12.46.05:360][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.08-12.46.06:355][  0]LogAssetRegistry: FAssetRegistry took 0.0474 seconds to start up
+[2019.08.08-12.46.08:915][  0]SourceControl: Info Source control is disabled
+[2019.08.08-12.46.08:926][  0]SourceControl: Info Source control is disabled
+[2019.08.08-12.46.09:105][  0]SourceControl: Info Source control is disabled
+[2019.08.08-12.46.09:200][  0]SourceControl: Info Source control is disabled
+[2019.08.08-12.46.10:946][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2019.08.08-12.46.10:946][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2019.08.08-12.46.11:672][  0]LogEngine: Initializing Engine...
+[2019.08.08-12.46.11:709][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2019.08.08-12.46.11:744][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2019.08.08-12.46.12:679][  0]LogAIModule: Creating AISystem for world NewWorld
+[2019.08.08-12.46.13:001][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.08-12.46.13:098][  0]LogInit: FAudioDevice initialized.
+[2019.08.08-12.46.13:125][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Gor/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2019.08.08-12.46.13:128][  0]LogInit: Texture streaming: Enabled
+[2019.08.08-12.46.13:238][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2019.08.08-12.46.13:238][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2019.08.08-12.46.13:238][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 74523053486195d3ff5e1c967e7d0160|93b5f22a21294e08b5dfc52989ed5a13|b4a3a4d0-7e03-462f-bb38-8ed61a147810
+[2019.08.08-12.46.13:266][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2019.08.08-12.46.13:403][  0]LogInit: Transaction tracking system initialized
+[2019.08.08-12.46.14:047][  0]BlueprintLog: New page: Editor Load
+[2019.08.08-12.46.16:757][  0]LocalizationService: Info Localization service is disabled
+[2019.08.08-12.46.19:045][  0]LogConsoleResponse:Display: 
+[2019.08.08-12.46.21:330][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/FlyBird/Content/' took 0.01s
+[2019.08.08-12.46.21:330][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2019.08.08-12.46.23:005][  0]SourceControl: Info Source control is disabled
+[2019.08.08-12.46.23:050][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/FlyBird/Content/Maps/level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.08-12.46.23:081][  0]LightingResults: New page: Lighting Build
+[2019.08.08-12.46.23:201][  0]MapCheck: New page: Map Check
+[2019.08.08-12.46.23:201][  0]LightingResults: New page: Lighting Build
+[2019.08.08-12.46.23:464][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C2DED87420
+[2019.08.08-12.46.25:377][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave 382310__myfox14__game-over-arcade...
+[2019.08.08-12.46.25:576][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave 113093__edgardedition__click3...
+[2019.08.08-12.46.25:596][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave 258142__tuudurt__level-win...
+[2019.08.08-12.46.25:707][  0]LogTexture:Display: Building textures: fon_and_cube_text (AutoDXT)
+[2019.08.08-12.46.25:724][  0]LogTexture:Display: Building textures: big_cube_tex (AutoDXT)
+[2019.08.08-12.46.25:802][  0]LogMaterial: Missing cached shader map for material big_cube_tex_Mat, compiling. 
+[2019.08.08-12.46.25:838][  0]LogStaticMesh: Building static mesh big_cube_game...
+[2019.08.08-12.46.25:850][  0]LogStaticMesh: Built static mesh [0.012470.2s] /Game/GameModels/big_cube_game.big_cube_game
+[2019.08.08-12.46.25:864][  0]LogTexture:Display: Building textures: little_cube_tex (AutoDXT)
+[2019.08.08-12.46.25:949][  0]LogMaterial: Missing cached shader map for material little_cube_tex_Mat, compiling. 
+[2019.08.08-12.46.25:953][  0]LogStaticMesh: Building static mesh little_cube_game...
+[2019.08.08-12.46.25:955][  0]LogStaticMesh: Built static mesh [0.003573.2s] /Game/GameModels/little_cube_game.little_cube_game
+[2019.08.08-12.46.25:959][  0]LogMaterial: Missing cached shader map for material fon_and_cube_text_Mat, compiling. 
+[2019.08.08-12.46.25:963][  0]LogStaticMesh: Building static mesh fon_game...
+[2019.08.08-12.46.25:965][  0]LogStaticMesh: Built static mesh [0.002319.2s] /Game/GameModels/fon_game.fon_game
+[2019.08.08-12.46.25:967][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1116) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2019.08.08-12.46.25:967][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2019.08.08-12.46.25:967][  0]LogPhysics:Warning: Failed to cook convex: /Game/GameModels/fon_game.fon_game 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.08.08-12.46.25:972][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave 341484__sgtpepperarc360__galaga-song-02-spreading...
+[2019.08.08-12.46.27:476][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave 275141__mickleness__vermouth...
+[2019.08.08-12.46.28:258][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave 251461__joshuaempyre__arcade-music-loop...
+[2019.08.08-12.46.29:054][  0]LogTexture:Display: Building textures: bird_text (AutoDXT)
+[2019.08.08-12.46.29:063][  0]LogMaterial: Missing cached shader map for material bird_text_Mat, compiling. 
+[2019.08.08-12.46.29:142][  0]LogAIModule: Creating AISystem for world level1
+[2019.08.08-12.46.29:202][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/GameModels/fon_game.fon_game] ConvexElem[0] invalid
+[2019.08.08-12.46.29:422][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.08-12.46.29:452][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.08-12.46.29:563][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.641ms to complete.
+[2019.08.08-12.46.29:563][  0]LogFileHelpers: Loading map 'level1' took 6.520
+[2019.08.08-12.46.31:753][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.08.08-12.46.32:003][  0]LogCollectionManager: Loaded 0 collections in 0.001015 seconds
+[2019.08.08-12.46.32:401][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/FlyBird/Saved/Collections/' took 0.01s
+[2019.08.08-12.46.32:401][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/FlyBird/Content/Developers/Gor/Collections/' took 0.01s
+[2019.08.08-12.46.32:401][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/FlyBird/Content/Collections/' took 0.01s
+[2019.08.08-12.46.32:401][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2019.08.08-12.46.32:452][  0]LogContentBrowser: Native class hierarchy populated in 0.0395 seconds. Added 1894 classes and 340 folders.
+[2019.08.08-12.46.32:568][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.08.08-12.46.33:075][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.08.08-12.46.33:197][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.08.08-12.46.33:298][  0]LogLoad: Full Startup: 72.40 seconds (BP compile: 1.03 seconds)
+[2019.08.08-12.46.33:659][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2019.08.08-12.46.34:434][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.08-12.46.34:972][  0]LogRenderer: Reallocating scene render targets to support 964x704 (Frame:2).
+[2019.08.08-12.46.36:876][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.08.08-12.46.37:524][  8]LogAssetRegistry: Asset discovery search completed in 31.2160 seconds
+[2019.08.08-12.46.37:578][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2019.08.08-13.01.09:399][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/level1.level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/level1.level1:PersistentLevel.level1' with GeneratedClass '/Game/Maps/level1.level1_C' with ClassGeneratedBy '/Game/Maps/level1.level1:PersistentLevel.level1'
+[2019.08.08-13.01.09:399][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.08-13.01.09:441][675]PIE: New page: PIE session: level1 (Aug 8, 2019, 7:01:09 PM)
+[2019.08.08-13.01.09:473][675]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2019.08.08-13.01.09:552][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078720s)
+[2019.08.08-13.01.09:553][675]LogAIModule: Creating AISystem for world level1
+[2019.08.08-13.01.09:553][675]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2019.08.08-13.01.09:561][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.087879s)
+[2019.08.08-13.01.09:589][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2019.08.08-13.01.09:825][675]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.08-13.01.09:902][675]LogInit: FAudioDevice initialized.
+[2019.08.08-13.01.10:181][675]LogWorld: Game class is 'MyGM_C'
+[2019.08.08-13.01.10:285][675]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/GameModels/fon_game.fon_game] ConvexElem[0] invalid
+[2019.08.08-13.01.10:290][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2019.08.08-16.01.10
+[2019.08.08-13.01.10:290][675]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_level1.level1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.08-13.01.10:323][675]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_level1.level1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.08-13.01.10:378][675]LogWorld: Bringing up level for play took: 0.093747
+[2019.08.08-13.01.10:884][675]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_level1 0.87
+[2019.08.08-13.01.10:884][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/level1.level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/level1.level1:PersistentLevel.level1' with GeneratedClass '/Game/Maps/level1.level1_C' with ClassGeneratedBy '/Game/Maps/level1.level1:PersistentLevel.level1'
+[2019.08.08-13.01.13:678][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/level1.level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/level1.level1:PersistentLevel.level1' with GeneratedClass '/Game/Maps/level1.level1_C' with ClassGeneratedBy '/Game/Maps/level1.level1:PersistentLevel.level1'
+[2019.08.08-13.01.13:912][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/level1.level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/level1.level1:PersistentLevel.level1' with GeneratedClass '/Game/Maps/level1.level1_C' with ClassGeneratedBy '/Game/Maps/level1.level1:PersistentLevel.level1'
+[2019.08.08-13.01.13:968][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C2EC1F9D00
+[2019.08.08-13.01.14:162][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/level1.level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/level1.level1:PersistentLevel.level1' with GeneratedClass '/Game/Maps/level1.level1_C' with ClassGeneratedBy '/Game/Maps/level1.level1:PersistentLevel.level1'
+[2019.08.08-13.01.14:162][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.08-13.01.14:162][884]PIE: New page: PIE session: level1 (Aug 8, 2019, 7:01:14 PM)
+[2019.08.08-13.01.14:162][884]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2019.08.08-13.01.14:165][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002450s)
+[2019.08.08-13.01.14:165][884]LogAIModule: Creating AISystem for world level1
+[2019.08.08-13.01.14:166][884]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2019.08.08-13.01.14:166][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.003263s)
+[2019.08.08-13.01.14:182][884]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.08-13.01.14:254][884]LogInit: FAudioDevice initialized.
+[2019.08.08-13.01.14:316][884]LogWorld: Game class is 'MyGM_C'
+[2019.08.08-13.01.14:319][884]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/GameModels/fon_game.fon_game] ConvexElem[0] invalid
+[2019.08.08-13.01.14:322][884]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2019.08.08-16.01.14
+[2019.08.08-13.01.14:322][884]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_level1.level1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.08-13.01.14:323][884]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_level1.level1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.08-13.01.14:323][884]LogWorld: Bringing up level for play took: 0.005019
+[2019.08.08-13.01.14:325][884]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_level1 0.311
+[2019.08.08-13.01.14:325][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/level1.level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/level1.level1:PersistentLevel.level1' with GeneratedClass '/Game/Maps/level1.level1_C' with ClassGeneratedBy '/Game/Maps/level1.level1:PersistentLevel.level1'
+[2019.08.08-13.01.23:305][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/level1.level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/level1.level1:PersistentLevel.level1' with GeneratedClass '/Game/Maps/level1.level1_C' with ClassGeneratedBy '/Game/Maps/level1.level1:PersistentLevel.level1'
+[2019.08.08-13.01.23:342][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/level1.level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/level1.level1:PersistentLevel.level1' with GeneratedClass '/Game/Maps/level1.level1_C' with ClassGeneratedBy '/Game/Maps/level1.level1:PersistentLevel.level1'
+[2019.08.08-13.01.23:389][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C2D3FCB4C0
+[2019.08.08-14.32.33:799][593]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.08.08-14.32.33:799][593]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.08.08-14.32.36:485][651]LogWindowsTextInputMethodSystem:Display: IME system now d
